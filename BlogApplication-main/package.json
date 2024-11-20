@@ -1,0 +1,10 @@
+{
+    "name": "mern-app",
+    "private": true,
+    "workspaces": ["Frontend", "Backend"],
+    "scripts": {
+      "start": "cd Backend && npm start",
+      "install-all": "npm install && cd Frontend && npm install && cd ../Backend && npm install"
+    }
+  }
+  
